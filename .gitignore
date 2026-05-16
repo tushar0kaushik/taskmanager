@@ -24,3 +24,5 @@ server/prisma/dev.db-journal
 .eslintcache
 server/.env
 client/.env
+server/.env
+client/.env
