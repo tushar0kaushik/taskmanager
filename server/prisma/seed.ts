@@ -22,19 +22,19 @@ async function main() {
   })
 
   const admin = await prisma.user.create({
-    data: { name: 'Yugal Kaushik', email: 'yugal@taskmanager.dev', password: hash('Yugal1234'), role: Role.ADMIN, orgId: org.id },
+    data: { name: 'Tushar', email: 'tushar@taskmanager.dev', password: hash('Tushar1234'), role: Role.ADMIN, orgId: org.id },
   })
   const manager = await prisma.user.create({
-    data: { name: 'Tina Sharma', email: 'tina@taskmanager.dev', password: hash('Tina1234'), role: Role.MANAGER, orgId: org.id },
+    data: { name: 'Kunal', email: 'kunal@taskmanager.dev', password: hash('Kunal1234'), role: Role.MANAGER, orgId: org.id },
   })
   const member1 = await prisma.user.create({
     data: { name: 'Akash Mehta', email: 'akash@taskmanager.dev', password: hash('Akash1234'), role: Role.MEMBER, orgId: org.id },
   })
   const member2 = await prisma.user.create({
-    data: { name: 'Shubham Gupta', email: 'shubham@taskmanager.dev', password: hash('Shubham1234'), role: Role.MEMBER, orgId: org.id },
+    data: { name: 'Shubham', email: 'shubham@taskmanager.dev', password: hash('Shubham1234'), role: Role.MEMBER, orgId: org.id },
   })
   const member3 = await prisma.user.create({
-    data: { name: 'Neha Singh', email: 'neha@taskmanager.dev', password: hash('Neha1234'), role: Role.MEMBER, orgId: org.id },
+    data: { name: 'Ritika', email: 'ritika@taskmanager.dev', password: hash('Ritika1234'), role: Role.MEMBER, orgId: org.id },
   })
   const member4 = await prisma.user.create({
     data: { name: 'Pooja Patil', email: 'pooja@taskmanager.dev', password: hash('Pooja1234'), role: Role.MEMBER, orgId: org.id },
@@ -87,11 +87,11 @@ async function main() {
 
   console.log('Seed complete. Org invite code: task2026')
   console.log('Login details:')
-  console.log('Yugal Kaushik (ADMIN) - yugal@taskmanager.dev / Yugal1234')
-  console.log('Tina Sharma (MANAGER) - tina@taskmanager.dev / Tina1234')
+  console.log('Tushar (ADMIN) - tushar@taskmanager.dev / tushar1234')
+  console.log('Kunal (MANAGER) - kunal@taskmanager.dev / kunal1234')
   console.log('Akash Mehta (MEMBER) - akash@taskmanager.dev / Akash1234')
-  console.log('Shubham Gupta (MEMBER) - shubham@taskmanager.dev / Shubham1234')
-  console.log('Neha Singh (MEMBER) - neha@taskmanager.dev / Neha1234')
+  console.log('Shubham (MEMBER) - shubham@taskmanager.dev / Shubham1234')
+  console.log('Ritika (MEMBER) - ritika@taskmanager.dev / ritika1234')
   console.log('Pooja Patil (MEMBER) - pooja@taskmanager.dev / Pooja1234')
 }
 
