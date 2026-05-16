@@ -3,9 +3,9 @@
 Deployed Application: https://sparkling-patience-production-c8d0.up.railway.app/login
 
 The database has already been seeded with demo data, so you can directly log in using the accounts below and explore the platform without any setup.
-- Admin: `Yugal Kaushik` - `yugal@taskmanager.dev` password: `Yugal1234`
-- Manager: `Tina Sharma` - `tina@taskmanager.dev` password: `Tina1234`
-- Member: `Shubham Gupta` - `shubham@taskmanager.dev` password: `Shubham1234`
+- Admin: `Tushar` - `tushar@taskmanager.dev` password: `Tushar1234`
+- Manager: `Kunal` - `kunal@taskmanager.dev` password: `Kunal1234`
+- Member: `Shubham` - `shubham@taskmanager.dev` password: `Shubham1234`
 
 The app is split into two parts:
 
@@ -105,6 +105,6 @@ The seed script creates one organization and a small team with realistic task da
 
 - Organization: `Task Manager Dev`
 - Invite code: `task2026`
-- Admin: `Yugal Kaushik` - `yugal@taskmanager.dev` / `Yugal1234`
-- Manager: `Tina Sharma` - `tina@taskmanager.dev` / `Tina1234`
-- Members: `Akash Mehta`, `Shubham Gupta`, `Neha Singh`, `Pooja Patil`
+- Admin: `Tushar` - `tushar@taskmanager.dev` / `Tushar1234`
+- Manager: `Kunal` - `kunal@taskmanager.dev` password: `Kunal1234`
+- Member: `Shubham` - `shubham@taskmanager.dev` password: `Shubham1234`
